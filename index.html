@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Saigon Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hi+Melody&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/StarLightSaigon/image/StarLight_Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">FOOD MENU</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">F&Q</a></li>
+
+            </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <!--Pho Tai, Banh Mi Thit Nuong, Spring rools, Egg rolls, Banh Xeo,-->
+
+        <div class="text-box">
+            <h1>Best 5 star rated restaurant in Dallas!</h1>
+    
+            <p>
+                Starlight Saigon is a Vietnamese restaurant and was opened on August 12th, 1998 and it is on going for 26 years from now!<br>
+                If you're looking for noodle and some beefs, we got an excellent Pho soup. Every Friday, we have a special singer The best part is we have a special fried rice.<br>
+                Many people from across different states and left an awesome review. Stop by and try our delicious
+                cuisine Vietnamese foods in 1234 West, Dallas, TX.
+               
+            </p>
+
+            <a href="" class="hero-btn">Visit Us to know more</a>
+
+        </div>
+
+
+</section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            
+        }
+        function hideMenu(){
+                navLinks.style.right="-200px";
+                
+            }
+        </script>
+
+
+</body>
+</html>
