@@ -7,4 +7,12 @@ The navigation bar is set align on the right side. I included media in the CSS f
 
 <br>
 
-![StarLightSaigonHomePage](https://github.com/user-attachments/assets/10d47799-d462-4407-8d2f-6f6bbf2fc568)
+![Screenshot from 2024-07-31 21-17-31](https://github.com/user-attachments/assets/60c83e3b-3335-4f88-9c1a-c9b8d6d554a5)
+
+
+
+![Screenshot from 2024-07-31 21-17-52](https://github.com/user-attachments/assets/b2fcd2ac-b478-4dfe-9bb3-45864b1d31f0)
+
+
+
+![Screenshot from 2024-07-31 21-18-05](https://github.com/user-attachments/assets/04dc4fef-dc08-4646-9d69-78f1ea4c2575)
