@@ -1,8 +1,8 @@
 <h1>Introduction</h1>
 
-<p>This is my first website and I'm still currently working. StarLight Saigon is a fictional restaurant
+<p>StarLight Saigon is a fictional restaurant and I'm designing a website that is a simple and appealing to users.
 The navigation bar is set align on the right side. I included media in the CSS file when shrinking the webpage size the menu right animate to the right
-  shows the five tabs. 
+  shows the five tabs. Next one layer is where three different foods display and you can hover see a text tell you and its background highlight light orange.  
 </p>
 
 <br>
