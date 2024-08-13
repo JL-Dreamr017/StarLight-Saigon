@@ -1,5 +1,7 @@
 <h1>Introduction</h1>
 
+https://youtu.be/z2EKv1FnbOg
+
 <p>StarLight Saigon is a fictional restaurant and I'm designing a website that is a simple and appealing to users.
 The navigation bar is set align on the right side. I included media in the CSS file when shrinking the webpage size the menu right animate to the right
   shows the five tabs. Next one layer is where three different foods display and you can hover see a text tell you and its background highlight light orange.  
@@ -9,7 +11,7 @@ The navigation bar is set align on the right side. I included media in the CSS f
 
 <h2>StarLight Saigon Homepage</h2>
 
-![Screenshot from 2024-07-31 21-17-31](https://github.com/user-attachments/assets/60c83e3b-3335-4f88-9c1a-c9b8d6d554a5)
+![image](https://github.com/user-attachments/assets/afed6e88-53ec-4fb1-b27e-1e9085b44514)
 
 <p>The picture is the home page for StarLight Saigon Restaurant. I'm currently working on the other pages.</p>
 
