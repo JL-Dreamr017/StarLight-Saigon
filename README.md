@@ -1,6 +1,12 @@
 <h1>Introduction</h1>
 
-https://youtu.be/z2EKv1FnbOg
+<div align="center">
+
+[![Watch the video](https://img.youtube.com/vi/z2EKv1FnbOg/0.jpg)](https://www.youtube.com/watch?v=z2EKv1FnbOg)
+  
+</div>
+
+<br>
 
 <p>StarLight Saigon is a fictional restaurant and I'm designing a website that is a simple and appealing to users.
 The navigation bar is set align on the right side. I included media in the CSS file when shrinking the webpage size the menu right animate to the right
@@ -13,7 +19,19 @@ The navigation bar is set align on the right side. I included media in the CSS f
 
 ![image](https://github.com/user-attachments/assets/afed6e88-53ec-4fb1-b27e-1e9085b44514)
 
-<p>The picture is the home page for StarLight Saigon Restaurant. I'm currently working on the other pages.</p>
+
+<h2>Navigation bar</h2>
+
+<ul>
+  <li>Home</li>
+  <li>Gallery</li>
+  <li>Food Menu</li>
+  <li>Contact</li>
+  <li>Order</li>
+
+</ul>
+
+
 
 <h2>Mobile Website Perspective</h2>
 
