@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Saigon Restaurant</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="StarLightStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hi+Melody&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" 
@@ -20,10 +20,10 @@
 
                 <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
+                <li><a href="">GALLERY</a></li>
                 <li><a href="">FOOD MENU</a></li>
                 <li><a href="">CONTACT</a></li>
-                <li><a href="">F&Q</a></li>
+                <li><a href="">ORDER</a></li>
 
             </ul>
            </div>
@@ -36,62 +36,147 @@
         <div class="text-box">
             <h1>Best 5 star rated restaurant in Dallas!</h1>
     
-            <p>
-                Starlight Saigon is a Vietnamese restaurant and was opened on August 12th, 1998 and it is on going for 26 years from now!<br>
-                If you're looking for noodle and some beefs, we got an excellent Pho soup. Every Friday, we have a special singer The best part is we have a special fried rice.<br>
-                Many people from across different states and left an awesome review. Stop by and try our delicious
-                cuisine Vietnamese foods in 1234 West, Dallas, TX.
+            <p class="StarLightBrief">
+                Eating food you like make your day brighter as Star fly by.
             </p>
           <!--  <a href="" class="hero-btn">Visit Us to know more</a>-->
         </div>
     
+        
+
+    <div class="imageSliderPosition">
+
+        <!--Image slider starter-->
+        <div class="slider">
+          <div class="slides">
+              <!--Radio buttons-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <div class="slide first">
+                  <img src="/StarLightSaigon//FoodMenu/EggOmelet.png" alt="">
+                 
+                  <div class="layerEggOmelet">
+
+                      <h3>Egg Omelet</h3>
+                  </div>
+              </div>
+              <div class="slide">
+                  <img src="/StarLightSaigon/FoodMenu/PhoSoup.png" alt="">
+                  <h3>Pho</h3>
+              </div>
+              <div class="slide">
+                <img src="/StarLightSaigon/FoodMenu/SpringRolls.png" alt="">
+            
+
+                    <h3>Spring rolls</h3>
+
+              </div>
+              <!--Auomatic navigation start-->
+             <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+             </div>
+            <!--End of automatic navigation-->
+
+
+            </div> <!--End of Second word class Slides-->
+
+            <!---->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+
+            </div> <!--End of Navigation-manual Class-->
+
+        </div><!--End -->
+
+    </div><!--End of Image position-->
+
+    </section>    
+
+
+<!--
+    <section>
+    
+        <div class="MiddleBox">
+    
+            <h2>ABOUT</h2>
+            <p class="briefAbout">
+                Jeremy was a young and middle immigrant from Vietnam and lived in the poor village During the war, he and his family fled with his family 1973 to America.
+                After learning write and speak English at age 12,<br>he wanted to be chef and owned a restaurant.  On August 12th, 
+                1982, he was working part time job while attending at Cuisine school. As the time past by, he needed money without borrowing
+                business loan that he wouldn't accumulte debts.So, he worked as an assistant chef at luxury hotel for 5 years and opened his restaurant 
+                on August 22th, 1998.
+            </p>
+        </div>
     </section>
     
-<!--Adding three different pictures in the middle inside first section-->
-
-<section class="starlightfood">
-    <h1>Middle Layer</h1>
-
-    <div class="row">
-        <div class="starlightfood-col">
-            <img src="FoodMenu/EggOmelet.png">
-            <div class="layer">
-                <h3>Egg Omlet</h3>
-            </div>
-        </div>
+-->
     
-        <div class="starlightfood-col">
-            <img src="FoodMenu/SpringRolls.png">
-            <div class="layer">
-                <h3>Spring Rolls</h3>
-            </div>
+
+
+<!--Footer Section-->
+<section class="footer">
+<h4>Follow us</h4>
+
+    <div class="wrapper">
+        <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span><i class="fa-brands fa-facebook"> </i></span>
         </div>
-    
-        <div class="starlightfood-col">
-            <img src="FoodMenu/PhoSoup.png">
-            <div class="layer">
-                <h3>Pho</h3>
-            </div>
+
+        <div class="icon x twitter">
+            <div class="tooltip">Twitter</div>
+            <span><i class="fa-brands fa-x-twitter"> </i></span>
         </div>
+
+        <div class="icon github">
+            <div class="tooltip">Github</div>
+            <span><i class="fa-brands fa-github"> </i></span>
+        </div>
+
+        <div class="icon youtube">
+            <div class="tooltip">Youtube</div>
+            <span><i class="fa-brands fa-youtube"> </i></span>
+        </div>
+
+  
     </div>
-    
+
+    <p>Made by JL</p>
+
 
 </section>
 
 
-
 <!--Wrote Javascript functions, ShowMenu and hideMenu, for Navigation header-->
     <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right="0";
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        
+    navLinks.style.right="0";
             
-        }
-        function hideMenu(){
-                navLinks.style.right="-200px";
+}
+    function hideMenu(){
+    navLinks.style.right="-200px";
                 
-            }
-    </script>
+}
+
+var counter = 1;
+setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 3){
+        counter = 1;
+   
+ }
+
+}, 5000);
+            
+</script>
 
 
 </body>
