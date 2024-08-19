@@ -358,9 +358,30 @@ nav img{
 
 }
 
+
+
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+
+.nav-links ul li ul.dropdown li{
+    display: block;
+}
+
+.nav-links  ul li ul.dropdown {
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.702), #9e3a01b7),url(/StarLightSaigon/image/Saigon.png);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+.nav-links ul li:hover ul.dropdown{
+    display: block;
+}
+
 
 .text-box{
     width:90%;
